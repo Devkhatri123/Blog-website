@@ -1,0 +1,102 @@
+#container{
+    margin-top: 30px 0;
+    overflow: hidden;
+    display: grid;
+}
+ #desc > p{
+  background-color: unset;
+} 
+#desc>ul{
+    padding: 5px 5px 0 22px;
+}
+#desc>h3{
+    padding: 0 11px;
+}
+#title {
+    font-size: 1.3em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-height: 2.5em;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+}
+.post{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+.post_content{
+    padding: 0 12px;
+}
+#desc{
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-height: 6em;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+}
+#author{
+    margin-bottom: 7px;
+}
+#category{
+    margin-top: 7px;
+    background-color: #5e76bf;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+}
+@media screen and (max-width:639px) {
+    #container{
+        grid-template-columns: repeat(1,1fr);
+        margin: 10px 10px 0px 10px;
+    }
+   
+}
+@media screen and (min-width:640px) {
+    #container{
+        grid-template-columns: repeat(2, 1fr);
+        overflow: hidden;
+        display: grid;
+        column-gap: 1.2em;
+        margin: 15px 15px;
+    }
+    #desc{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        max-height: 6em;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+        line-height: 1.5;
+        text-overflow: ellipsis;
+    }
+}
+@media screen and (min-width:992px) {
+    #container{
+        grid-template-columns: repeat(3,1fr);
+        gap: 1vw;
+        width: 93%;
+        margin: 28px auto;
+    }
+    #desc{
+        line-height: 1.5;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        max-height: 5.5em;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+        line-height: 1.25;
+        text-overflow: ellipsis;
+    }
+}
+
+
+  

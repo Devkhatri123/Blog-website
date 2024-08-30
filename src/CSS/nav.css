@@ -1,0 +1,43 @@
+body{
+        margin: 0;
+        padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    /* margin: 1vw; */
+    max-height: 5em;
+    list-style: none;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0 1em;
+    /* position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; */
+}
+a{
+        text-decoration: none;
+        color: black;
+}
+#logo{
+        height: 65px;
+        /* width: auto; */
+        width: 34%;
+        max-width: 140px;
+        height: 16%;
+}
+.lists{
+        display: flex;
+        gap: 2.6vw;
+        font-size: 0.8em;
+}
+@media screen and (max-width:460px) {
+        #logo{
+        height: 65px;
+        /* width: auto; */
+        width: 34%;
+        height: 22%;
+        }
+}

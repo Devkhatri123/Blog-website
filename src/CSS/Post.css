@@ -1,0 +1,135 @@
+#blog{
+    /* width: 61%; */
+    max-width: 754px;
+    margin: 0 auto;
+}
+.author_name_publish_date>p{
+    margin-top: 1px;
+}
+.author_name_publish_date{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.thumbnail>img{
+    width: 100%;
+}
+.content>div>ul{
+    padding: 2px 0px 0px 15px;
+    line-height: 1.7;
+}
+.content>div>h3{
+       font-size: 15px;
+        margin-left: 14px;
+        letter-spacing: 0.7px;
+}
+img{
+     width: 100%; 
+}
+.heading h1{
+    font-family: 'Roboto';
+    margin: 20px 0 0 0;
+    font-size: 1.5em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-height: 2.5em;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+
+}
+#Category{
+    background-color: #5e76bf;
+    width: max-content;
+    padding: 5px 16px;
+    border-radius: 8px;
+    color: white;
+    margin: 0 0 5px 0;
+    font-size: 0.8em;
+}
+.content>div>p{
+    background-color: unset !important;
+    padding: 1px;
+    text-align: justify;
+    margin-bottom: 10px !important;
+    font-size: clamp(12.5px, 2.2vw, 13.5px) !important;
+    font-family: 'Roboto' !important;
+    /* display: flex;
+    justify-content: center; */
+}
+.delete_button{
+    background-color: #6f6af8;
+    color: white;
+    padding: 0.5em 0.8em;
+    border: none;
+    padding:0px 29px;
+    border-radius: 6px;
+    height: 36px;
+}
+.Edit_btn{
+    background-color: #6f6af8;
+    color: white;
+    padding: 0.5em 0.8em;
+    border: none;
+    padding:0px 29px;
+    border-radius: 6px;
+    height: 36px;
+}
+.delete_button:hover{
+    cursor: pointer;
+}
+.author_name_publish_date>div{
+    margin-right: 10px;
+    display: flex;
+    gap: 5px;
+}
+.module--text{
+    background-color: unset !important;
+}
+.rich-text{
+    background-color: unset !important;
+}
+.content>div>p>span{
+    background-color: unset !important;
+    font-size: clamp(12.5px, 2.2vw, 13.5px) !important;
+}
+ .content div{
+    background-color: unset !important;
+    padding: 0px !important;
+}
+
+.content>div>p>span>span{
+    background-color: unset !important;
+    font-size: clamp(12.5px, 2.2vw, 13.5px) !important;
+}
+.content>div>h2{
+    background-color: unset !important;
+}
+.content>div>li>h3{
+    background-color: unset !important;
+}
+.content>div>li{
+    background-color: unset !important;
+}
+.content>div>p>a{
+    background-color: unset !important;
+    font-size: clamp(12.5px, 2.2vw, 13.5px) !important;
+}
+.content>div>ul{
+    background-color: unset !important;
+}
+.content>div>ul>li{
+    background-color: unset !important;
+}
+.content>div>p>img{
+    background-color: unset !important;
+}
+@media screen and (max-width:639px){
+    #blog{
+      width: 97%;
+    }
+    .content>div>p>span>img{
+        width: 100% !important;
+    }
+}
