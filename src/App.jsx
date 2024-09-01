@@ -12,7 +12,7 @@ function App() {
    {/* <SignUp/> */}
    <Router>
     <Routes>
-    <Route excat  path="/" element={<Blogs/>} />
+    <Route path="/" element={<Blogs/>} />
     <Route path="/login" element={<Signin/>} />
     <Route path="/SignUp" element={<SignUp/>} />
     <Route path="/post/:id" element={<Post/>} />
