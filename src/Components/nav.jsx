@@ -28,7 +28,7 @@ const Nav = (props) => {
     if(user){
       navigate("/createblog");
     }else{
-      navigate("/blogs");
+      navigate("/");
       alert("Please Sign In first then you can create and publish post");
     }
   }
@@ -36,9 +36,9 @@ const Nav = (props) => {
   return (
     <div>
       <nav>
-        <img src={blog} alt="logo" id='logo'/>
+        <img src={blog} alt="logo" id='logo' onClick={()=>navigate("/")}/>
         <div className='lists'>
-          <li><Link to="/blogs">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li onClick={createpost}><Link to="/createblog">Create Post</Link></li>
           {!user ?  <li><Link to="/login">Login</Link></li> : <li onClick={signout}>{user?.displayName}</li>}
         </div>

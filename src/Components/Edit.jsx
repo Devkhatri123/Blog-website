@@ -92,7 +92,7 @@ const Edit = () => {
                 })
           
               setloading(false)
-              navigate("/blogs");
+              navigate("/");
             }catch (error){
              setloading(false)
               console.log("error :",error);

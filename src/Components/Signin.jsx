@@ -18,7 +18,7 @@ const Signin = () => {
         setloading(false);
         console.log(res);
        document.getElementById("loading").style.opacity = "unset";
-        navigate("/blogs");
+        navigate("/");
     }).catch((error)=>{
        setloading(false);
       document.getElementById("loading").style.opacity = "unset";

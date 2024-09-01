@@ -45,7 +45,7 @@ const CreatePost = () => {
         console.log(user);
       } else {
         Setuser(null);
-        Navigate("/blogs");
+        Navigate("/");
       }
     });
   }, []);
@@ -87,8 +87,8 @@ const CreatePost = () => {
   
   const createPost = async (e) => {
     SetError("");
-    if(!file){
-      return SetError("Please Select an Image for Blog");
+    if(!file || !title || !category || !Content){
+      return SetError("Please Fill All fields");
     }
     setnone(true);
      setloading(true);

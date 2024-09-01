@@ -28,7 +28,7 @@ const SignUp = ({html}) => {
           displayName: name,
         });
       document.getElementById("loading").style.opacity = "unset";
-        navigate("/blogs");
+        navigate("/");
       })
       .catch((error) => {
         setloading(false);
