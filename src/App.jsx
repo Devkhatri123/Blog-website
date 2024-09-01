@@ -10,7 +10,7 @@ function App() {
   return (
    <div>
    {/* <SignUp/> */}
-   <Router>
+   <Router basename={process.env.PUBLIC_UR}>
     <Routes>
     <Route path="/" element={<Blogs/>} />
     <Route path="/login" element={<Signin/>} />
