@@ -1,1 +1,1 @@
-Website Url: https://devkhatri123.github.io/Blog-website/
+Website Url: https://blogpostingwebsite-e8dspcw7v-devs-projects-03e98496.vercel.app/
