@@ -58,7 +58,7 @@ const Blogs = () => {
        <article className="post" key={index}>
         <Link to={`/post/${item.id}`}>
         <div className="post_thumbnail">
-           <img src={item.Thumbnail} alt={item.title} id="thumbnail" style={{height:"192px",objectFit:"cover"}}/>
+           <img src={item.Thumbnail} alt={item.title} id="thumbnail" style={{objectFit:"cover"}}/>
          </div>
          </Link>
         <Link to={`/post/${item.id}`}>

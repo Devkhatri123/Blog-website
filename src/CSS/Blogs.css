@@ -54,6 +54,20 @@
     border-radius: 8px;
     color: white;
 }
+.post a .post_thumbnail{
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+}
+.post a .post_thumbnail img{
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 @media screen and (max-width:639px) {
     #container{
         grid-template-columns: repeat(1,1fr);

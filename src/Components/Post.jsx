@@ -78,7 +78,7 @@ const Post = () => {
               </div>
             </div>
             <div className="thumbnail">
-              <img src={blog.Thumbnail} alt={blog.title} id="Thumbnail"  style={{height:"250px",objectFit:"fill"}}/>
+              <img src={blog.Thumbnail} alt={blog.title} id="Thumbnail" />
             </div>
             <div className="content">
               <div dangerouslySetInnerHTML={{ __html:blog.description }}  ref={Ref}/>

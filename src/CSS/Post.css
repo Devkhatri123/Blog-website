@@ -11,7 +11,20 @@
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+.thumbnail{
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
 .thumbnail>img{
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
     width: 100%;
 }
 .content>div>ul{
@@ -54,9 +67,7 @@ img{
     text-align: justify;
     margin-bottom: 10px !important;
     font-size: clamp(12.5px, 2.2vw, 13.5px) !important;
-    font-family: 'Roboto' !important;
-    /* display: flex;
-    justify-content: center; */
+    line-height: 2 !important;
 }
 .delete_button{
     background-color: #6f6af8;
@@ -125,6 +136,7 @@ img{
 .content>div>p>img{
     background-color: unset !important;
 }
+
 @media screen and (max-width:639px){
     #blog{
       width: 97%;
